@@ -30,7 +30,59 @@ public class HackerNewsItem {
         _id = id;
     }
 
-    @Override
+    /**
+     *
+     * @return the id of the post
+     */
+    public int getId() {
+        return _id;
+    }
+
+    /**
+     *
+     * @return the position of the post
+     */
+    public int getPosition() {
+        return _position;
+    }
+
+    /**
+     *
+     * @return the score of the post
+     */
+    public int getScore() {
+        return _score;
+    }
+
+    /**
+     *
+     * @return the username of the poster
+     */
+    public String getAuthor() {
+        return _author;
+    }
+
+    /**
+     *
+     * @return the title of the post
+     */
+    public String getTitle() {
+        return _title;
+    }
+
+    /**
+     *
+     * @return the url of the post
+     */
+    public String getUrl() {
+        return _url;
+    }
+
+
+    /**
+     *
+     * @return
+     */
     public String toString() {
         return "HackerNewsItem{" +
                 "_title='" + _title + '\'' +
